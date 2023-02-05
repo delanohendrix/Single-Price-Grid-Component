@@ -15,8 +15,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -32,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-_f0-y_slJ5)
 - Live Site URL: [Github Pages](https://delanohendrix.github.io/Single-Price-Grid-Component/)
 
 ## My process
