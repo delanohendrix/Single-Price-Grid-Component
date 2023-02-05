@@ -96,10 +96,12 @@ main {
   color: var(--light-gray);
 }
 .section2-content a {
+  display: inline-block;
   background-color: var(--bright-yellow);
-  text-decoration: none;
   color: var(--light-gray);
+  text-decoration: none;
   font-size: 18px;
+  font-weight: 700;
   text-align: center;
   border-radius: 7px;
   padding: 15px 0px;
@@ -162,6 +164,27 @@ main {
   .content section:nth-child(2),
   .content section:nth-child(3) {
     padding-bottom: 35px;
+  }
+  .button-text {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button-text::after {
+    content: "\2192";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .section2-content a:hover .button-text {
+    padding-right: 25px;
+  }
+  .section2-content a:hover .button-text:after {
+    opacity: 1;
+    right: 0;
   }
   .section3-content ul {
     line-height: 23px;
